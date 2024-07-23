@@ -1,0 +1,66 @@
+{
+  "auth": {
+    "typescriptreactproje": {
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaTypes": [],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": []
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
+  "interactions": {
+    "testFlowerBot": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lex"
+    },
+    "testchatbot": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lex"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_interactions_testFlowerBot_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "testFlowerBot"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_testFlowerBot_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "testFlowerBot"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_testchatbot_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "testchatbot"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_testchatbot_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "testchatbot"
+        }
+      ]
+    }
+  }
+}

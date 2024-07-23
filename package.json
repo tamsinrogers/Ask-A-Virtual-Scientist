@@ -1,0 +1,61 @@
+{
+  "name": "typescript-react-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/interactions": "^6.0.3",
+    "@chatscope/chat-ui-kit-react": "^1.10.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "aws-amplify": "^6.0.3",
+    "react": "^18.2.0",
+    "react-chat-elements": "^12.0.11",
+    "react-chatbot-kit": "^2.1.2",
+    "react-chatbox-component": "^0.0.5",
+    "react-dom": "^18.2.0",
+    "react-lex-plus": "^1.2.5",
+    "react-scripts": "5.0.1",
+    "ts-loader": "^9.5.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "magic": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "tsc": "tsc",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "webpack.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5"
+  }
+}

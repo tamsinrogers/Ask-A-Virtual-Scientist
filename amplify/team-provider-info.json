@@ -1,0 +1,58 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-typescriptreactproje-dev-120451-authRole",
+      "UnauthRoleArn": "arn:aws:iam::369076367031:role/amplify-typescriptreactproje-dev-120451-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::369076367031:role/amplify-typescriptreactproje-dev-120451-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-typescriptreactproje-dev-120451-deployment",
+      "UnauthRoleName": "amplify-typescriptreactproje-dev-120451-unauthRole",
+      "StackName": "amplify-typescriptreactproje-dev-120451",
+      "StackId": "arn:aws:cloudformation:us-east-1:369076367031:stack/amplify-typescriptreactproje-dev-120451/ec20a1e0-87c6-11ee-b3d3-0a534052e071",
+      "AmplifyAppId": "d2gjgtuerwhybg"
+    },
+    "categories": {
+      "auth": {
+        "typescriptreactproje": {}
+      },
+      "interactions": {
+        "testchatbot": {
+          "deploymentBucketName": "amplify-typescriptreactproje-dev-120451-deployment",
+          "s3Key": "amplify-builds/testchatbot-6565436d555a3952304f-build.zip"
+        },
+        "testFlowerBot": {
+          "deploymentBucketName": "amplify-typescriptreactproje-dev-120451-deployment",
+          "s3Key": "amplify-builds/testFlowerBot-57595171416c78396447-build.zip"
+        }
+      }
+    }
+  },
+  "mos": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-typescriptreactproje-mos-151040-authRole",
+      "UnauthRoleArn": "arn:aws:iam::344440222217:role/amplify-typescriptreactproje-mos-151040-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::344440222217:role/amplify-typescriptreactproje-mos-151040-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-typescriptreactproje-mos-151040-deployment",
+      "UnauthRoleName": "amplify-typescriptreactproje-mos-151040-unauthRole",
+      "StackName": "amplify-typescriptreactproje-mos-151040",
+      "StackId": "arn:aws:cloudformation:us-east-1:344440222217:stack/amplify-typescriptreactproje-mos-151040/35951f40-8e2a-11ee-8773-0a4fa3ba5e07",
+      "AmplifyAppId": "d2o120f399jcag"
+    },
+    "categories": {
+      "auth": {
+        "typescriptreactproje": {}
+      },
+      "interactions": {
+        "testFlowerBot": {
+          "deploymentBucketName": "amplify-typescriptreactproje-mos-151040-deployment",
+          "s3Key": "amplify-builds/testFlowerBot-57595171416c78396447-build.zip"
+        },
+        "testchatbot": {
+          "deploymentBucketName": "amplify-typescriptreactproje-mos-151040-deployment",
+          "s3Key": "amplify-builds/testchatbot-6565436d555a3952304f-build.zip"
+        }
+      }
+    }
+  }
+}

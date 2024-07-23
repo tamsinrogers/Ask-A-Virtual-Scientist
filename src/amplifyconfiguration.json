@@ -1,0 +1,33 @@
+{
+  "aws_project_region": "us-east-1",
+  "aws_cognito_identity_pool_id": "us-east-1:1b54e350-d911-4d0b-8d2f-783e29910caa",
+  "aws_cognito_region": "us-east-1",
+  "oauth": {},
+  "aws_cognito_username_attributes": [],
+  "aws_cognito_social_providers": [],
+  "aws_cognito_signup_attributes": [],
+  "aws_cognito_mfa_types": [],
+  "aws_cognito_password_protection_settings": {
+    "passwordPolicyCharacters": []
+  },
+  "aws_cognito_verification_mechanisms": [],
+  "aws_bots": "enable",
+  "aws_bots_config": [
+    {
+      "name": "BookTrip_dev",
+      "alias": "$LATEST",
+      "region": "us-east-1"
+    },
+    {
+      "name": "OrderFlowers_dev",
+      "alias": "$LATEST",
+      "region": "us-east-1"
+    },
+    {
+      "name": "AVS",
+      "alias": "$LATEST",
+      "region": "us-east-1"
+    }
+
+  ]
+}

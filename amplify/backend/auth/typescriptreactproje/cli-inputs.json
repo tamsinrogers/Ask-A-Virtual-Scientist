@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "typescriptreactproje_identitypool_a831d772",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "typescriptreactproje",
+    "sharedId": "a831d772",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

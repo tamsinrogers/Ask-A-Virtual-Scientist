@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "default"
+  },
+  "mos": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "/Users/trogers/.amplify/awscloudformation/WZs36HpFWd"
+  }
+}
